@@ -6,22 +6,22 @@ class MainSections extends Component {
         sections: [
             {
                 id: 1,
-                imageUrl: "logo192.png",
+                imageUrl: "pro_summ.png",
                 title: "Professional Summary"
             },
             {
                 id: 2,
-                imageUrl: "logo192.png",
+                imageUrl: "work_exp.png",
                 title: "Working Experience"
             },
             {
                 id: 3,
-                imageUrl: "logo192.png",
+                imageUrl: "edu.png",
                 title: "Education"
             },
             {
                 id: 4,
-                imageUrl: "logo192.png",
+                imageUrl: "certs.png",
                 title: "Certifications"
             }
         ]

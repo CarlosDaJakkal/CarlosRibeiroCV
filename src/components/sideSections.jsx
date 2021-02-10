@@ -6,32 +6,32 @@ class SideSections extends Component {
         sections: [
             {
                 id: 1,
-                imageUrl: "logo192.png",
+                imageUrl: "contact.png",
                 title: "Contact"
             },
             {
                 id: 2,
-                imageUrl: "logo192.png",
+                imageUrl: "attr.png",
                 title: "Attributes"
             },
             {
                 id: 3,
-                imageUrl: "logo192.png",
+                imageUrl: "key_str.png",
                 title: "Key Strengths"
             },
             {
                 id: 4,
-                imageUrl: "logo192.png",
+                imageUrl: "train.png",
                 title: "Training"
             },
             {
                 id: 5,
-                imageUrl: "logo192.png",
+                imageUrl: "tech.png",
                 title: "Technology"
             },
             {
                 id: 6,
-                imageUrl: "logo192.png",
+                imageUrl: "lang.png",
                 title: "Languages"
             }
         ]
