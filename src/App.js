@@ -1,7 +1,8 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import React, { Component } from 'react';
 import NavBar from './components/navbar';
-import Counters from './components/counters'
+import MainSections from './components/mainSections'
+import SideSections from './components/sideSections'
 import './App.css';
 
 class App extends Component {
@@ -45,12 +46,11 @@ handleReset = () => {
         <NavBar totalCounters={this.state.counters.filter(c => c.value > 0).length}
         />
         <main className="container">
-          <Counters 
-            counters={this.state.counters}
-            onReset={this.handleReset} 
-            onIncrement={this.handleIncrement} 
-            onDelete={this.handleDelete} 
-          />
+          <h1>Carlos M. P. Ribeiro</h1>
+          <h3>Software Engineer</h3>
+          <img src="logo192.png" alt="Logo"/>
+          <MainSections /> {" "}
+          <SideSections />
         </main>
       </React.Fragment>
   );
