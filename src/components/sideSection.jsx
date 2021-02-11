@@ -2,14 +2,22 @@ import React, { Component } from "react";
 
 class SideSection extends Component {
     render() {
+        const { imageUrl, title, list } = this.props.section;
+
         return (
             <div className="row">
-                <img
-                    className="float-left"
-                    src={this.props.section.imageUrl}
-                    alt=""
-                />
-                <h1 className="float-right">{this.props.section.title}</h1>
+                <div className="col-2">
+                    <img src={imageUrl} alt="" />
+                </div>
+
+                <div className="col-10">
+                    <h4>{title}</h4>
+                    <ul className="list-unstyled">
+                        {list.map((item) => (
+                            <li>{item}</li>
+                        ))}
+                    </ul>
+                </div>
             </div>
         );
     }
